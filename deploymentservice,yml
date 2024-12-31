@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: healthcare
-          image: kranti4/capstone2:4 # Image that will be used to containers in the cluster
+          image: kranti4/capstone3:7 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8082 # The port that the container is running on in the cluster
